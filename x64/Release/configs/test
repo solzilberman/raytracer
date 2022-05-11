@@ -1,0 +1,71 @@
+// Cornell Box for RayTracer
+ANTIALIAS 2
+BACKGROUND 0 0 0         // Background color
+MAXDEPTH 2            // Raytracing depth
+CAMERA                  // Camera params
+    FOVY 65
+    EYE 0 25 105
+    TARGET 0 0 0
+    UP 0 1 0
+
+LIGHT
+    POS 0 200 -200
+    DIFF 1.0 1.0 1.0   	//white light
+    SPEC 1.0 1.0 1.0	//full  white specular
+
+LIGHT
+    POS 0 200 200
+    DIFF 1.0 1.0 1.0   	//white light
+    SPEC .5 .5 .5	//full  white specular
+
+
+
+//SPHERE
+//    POS 50 -25 100 RADIUS 25
+//    DIFF 1.0 0 0         //some diffuse
+//    SPEC 0 0 0 	
+//	SHININESS 20.0          // Shininess coefficient
+//
+//SPHERE
+//    POS 0 0 -100 RADIUS 50
+//    DIFF .7 .7 .7    //some diffuse
+//    SPEC .2 .2 .2
+//	SHININESS 2000.0      // Shininess coefficient
+
+////// Back Face
+////QUAD 
+////     POS -150 -150 -150
+////     POS 150 -150 -150
+////     POS -150 150 -150
+////     DIFF 0.25 0.25 0.25
+////     SPEC 0 0 0
+////	 SHININESS 2000.0
+////
+//
+// Bottom Face
+//QUAD
+//    POS -1500 -50 1500
+//    POS 1500 -50 1500
+//    POS -1500 -50 -1500
+//    DIFF 0 0 .3
+//    SPEC .1 .1 .1
+//	SHININESS 10.0 
+
+
+//// Bottom Plane
+PLANE
+    POS 0 -10 0
+    NORMAL 0 1 0
+    DIFF  .2 .2 .2
+    SPEC 1 1 1
+	SHININESS 1000.0 
+
+//// Back Plane
+//PLANE
+//    POS 0 0 -450
+//    NORMAL 0 0 1
+//    DIFF .2 .2 .2
+//    SPEC 0 0 0
+//	SHININESS 1000.0 
+
+RESOLUTION 1000 1000 //image resolution

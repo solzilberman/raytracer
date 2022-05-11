@@ -1,0 +1,122 @@
+﻿  main.cpp
+C:\Users\Sol\Documents\School\Spring 22\CS 434\raytracer\include\objects.h(325,11): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\Sol\Documents\School\Spring 22\CS 434\raytracer\include\objects.h(336,25): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\Sol\Documents\School\Spring 22\CS 434\raytracer\include\objects.h(353,41): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\Sol\Documents\School\Spring 22\CS 434\raytracer\include\objects.h(353,29): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\Sol\Documents\School\Spring 22\CS 434\raytracer\include\scene.h(59,13): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\Users\Sol\Documents\School\Spring 22\CS 434\raytracer\include\scene.h(60,13): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\Users\Sol\Documents\School\Spring 22\CS 434\raytracer\include\scene.h(107,14): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Users\Sol\Documents\School\Spring 22\CS 434\raytracer\include\scene.h(230,13): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\Sol\Documents\School\Spring 22\CS 434\raytracer\include\scene.h(247,13): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\Sol\Documents\School\Spring 22\CS 434\raytracer\include\tracer.h(59,31): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+C:\Users\Sol\Documents\School\Spring 22\CS 434\raytracer\include\tracer.h(62,11): warning C4849: OpenMP 'collapse' clause ignored in 'parallel for' directive
+C:\Users\Sol\Documents\School\Spring 22\CS 434\raytracer\include\tracer.h(83,1): warning C4305: '=': truncation from 'double' to 'float'
+C:\Users\Sol\Documents\School\Spring 22\CS 434\raytracer\include\tracer.h(84,1): warning C4305: '=': truncation from 'double' to 'float'
+C:\Users\Sol\Documents\School\Spring 22\CS 434\raytracer\include\tracer.h(85,1): warning C4305: '=': truncation from 'double' to 'float'
+C:\Users\Sol\Documents\School\Spring 22\CS 434\raytracer\include\tracer.h(115,37): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+  
+  Searching libraries
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.18362.0\um\x64\opengl32.lib:
+      Searching C:\Users\Sol\Documents\School\Spring 22\CS 434\raytracer\bin\glew32.lib:
+      Searching C:\Users\Sol\Documents\School\Spring 22\CS 434\raytracer\bin\glew32s.lib:
+      Searching C:\Users\Sol\Documents\School\Spring 22\CS 434\raytracer\bin\glfw3.lib:
+      Searching C:\Users\Sol\Documents\School\Spring 22\CS 434\raytracer\bin\glfw3static.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.18362.0\um\x64\kernel32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.18362.0\um\x64\user32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.18362.0\um\x64\gdi32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.18362.0\um\x64\winspool.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.18362.0\um\x64\comdlg32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.18362.0\um\x64\advapi32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.18362.0\um\x64\shell32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.18362.0\um\x64\ole32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.18362.0\um\x64\oleaut32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.18362.0\um\x64\uuid.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.18362.0\um\x64\odbc32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.18362.0\um\x64\odbccp32.lib:
+      Searching C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\lib\x64\msvcprtd.lib:
+      Searching C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\lib\x64\MSVCRTD.lib:
+      Searching C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\lib\x64\OLDNAMES.lib:
+      Searching C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\lib\x64\VCOMPD.lib:
+      Searching C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\lib\x64\vcruntimed.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.18362.0\ucrt\x64\ucrtd.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.18362.0\um\x64\opengl32.lib:
+      Searching C:\Users\Sol\Documents\School\Spring 22\CS 434\raytracer\bin\glew32.lib:
+      Searching C:\Users\Sol\Documents\School\Spring 22\CS 434\raytracer\bin\glew32s.lib:
+      Searching C:\Users\Sol\Documents\School\Spring 22\CS 434\raytracer\bin\glfw3.lib:
+      Searching C:\Users\Sol\Documents\School\Spring 22\CS 434\raytracer\bin\glfw3static.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.18362.0\um\x64\kernel32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.18362.0\um\x64\user32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.18362.0\um\x64\gdi32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.18362.0\um\x64\winspool.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.18362.0\um\x64\comdlg32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.18362.0\um\x64\advapi32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.18362.0\um\x64\shell32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.18362.0\um\x64\ole32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.18362.0\um\x64\oleaut32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.18362.0\um\x64\uuid.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.18362.0\um\x64\odbc32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.18362.0\um\x64\odbccp32.lib:
+      Searching C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\lib\x64\msvcprtd.lib:
+      Searching C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\lib\x64\MSVCRTD.lib:
+      Searching C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\lib\x64\OLDNAMES.lib:
+      Searching C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\lib\x64\VCOMPD.lib:
+      Searching C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\lib\x64\vcruntimed.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.18362.0\ucrt\x64\ucrtd.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.18362.0\um\x64\opengl32.lib:
+      Searching C:\Users\Sol\Documents\School\Spring 22\CS 434\raytracer\bin\glew32.lib:
+      Searching C:\Users\Sol\Documents\School\Spring 22\CS 434\raytracer\bin\glew32s.lib:
+      Searching C:\Users\Sol\Documents\School\Spring 22\CS 434\raytracer\bin\glfw3.lib:
+      Searching C:\Users\Sol\Documents\School\Spring 22\CS 434\raytracer\bin\glfw3static.lib:
+  
+  Finished searching libraries
+  
+  Searching libraries
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.18362.0\um\x64\opengl32.lib:
+      Searching C:\Users\Sol\Documents\School\Spring 22\CS 434\raytracer\bin\glew32.lib:
+      Searching C:\Users\Sol\Documents\School\Spring 22\CS 434\raytracer\bin\glew32s.lib:
+      Searching C:\Users\Sol\Documents\School\Spring 22\CS 434\raytracer\bin\glfw3.lib:
+      Searching C:\Users\Sol\Documents\School\Spring 22\CS 434\raytracer\bin\glfw3static.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.18362.0\um\x64\kernel32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.18362.0\um\x64\user32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.18362.0\um\x64\gdi32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.18362.0\um\x64\winspool.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.18362.0\um\x64\comdlg32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.18362.0\um\x64\advapi32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.18362.0\um\x64\shell32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.18362.0\um\x64\ole32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.18362.0\um\x64\oleaut32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.18362.0\um\x64\uuid.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.18362.0\um\x64\odbc32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.18362.0\um\x64\odbccp32.lib:
+      Searching C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\lib\x64\msvcprtd.lib:
+      Searching C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\lib\x64\MSVCRTD.lib:
+      Searching C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\lib\x64\OLDNAMES.lib:
+      Searching C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\lib\x64\VCOMPD.lib:
+      Searching C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\lib\x64\vcruntimed.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.18362.0\ucrt\x64\ucrtd.lib:
+  
+  Finished searching libraries
+  
+  Searching libraries
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.18362.0\um\x64\opengl32.lib:
+      Searching C:\Users\Sol\Documents\School\Spring 22\CS 434\raytracer\bin\glew32.lib:
+      Searching C:\Users\Sol\Documents\School\Spring 22\CS 434\raytracer\bin\glew32s.lib:
+      Searching C:\Users\Sol\Documents\School\Spring 22\CS 434\raytracer\bin\glfw3.lib:
+      Searching C:\Users\Sol\Documents\School\Spring 22\CS 434\raytracer\bin\glfw3static.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.18362.0\um\x64\kernel32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.18362.0\um\x64\user32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.18362.0\um\x64\gdi32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.18362.0\um\x64\winspool.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.18362.0\um\x64\comdlg32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.18362.0\um\x64\advapi32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.18362.0\um\x64\shell32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.18362.0\um\x64\ole32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.18362.0\um\x64\oleaut32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.18362.0\um\x64\uuid.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.18362.0\um\x64\odbc32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.18362.0\um\x64\odbccp32.lib:
+      Searching C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\lib\x64\msvcprtd.lib:
+      Searching C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\lib\x64\MSVCRTD.lib:
+  
+  Finished searching libraries
+  raytracer.vcxproj -> C:\Users\Sol\Documents\School\Spring 22\CS 434\raytracer\x64\Debug\raytracer.exe

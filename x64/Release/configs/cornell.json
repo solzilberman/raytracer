@@ -1,0 +1,119 @@
+{
+  "renderer": {
+    "resolution": [ 1000, 1000 ],
+    "max_depth": 10,
+    "anti_aliasing": 1,
+    "background_color": [ 0, 0, 0 ]
+  },
+  "camera": {
+    "fovy": 45,
+    "eye": [ 0, 0, 600 ],
+    "target": [ 0, 0, 0 ],
+    "up": [ 0, 1, 0 ]
+  },
+  "lights": [
+    {
+      "pos": [ -100, 100, -100 ],
+      "diff": [ 0.7, 0.7, 0.7 ],
+      "spec": [ 1.0, 1.0, 1.0 ]
+    },
+    {
+      "pos": [ 0, -50, -600 ],
+      "diff": [ 0.7, 0.7, 0.7 ],
+      "spec": [ 1.0, 1.0, 1.0 ]
+    },
+    {
+      "pos": [ 100, 0, 100 ],
+      "diff": [ 0.7, 0.7, 0.7 ],
+      "spec": [ 1.0, 1.0, 1.0 ]
+    }
+  ],
+  "objects": [
+    {
+      "_comment": "big mirror",
+      "type": "sphere",
+      "radius": 45,
+      "pos": [ 75, 75, -50 ],
+      "diff": [ 0, 0.33, 0 ],
+      "spec": [ 1, 1, 1 ],
+      "shineness": 200.0
+    },
+    {
+      "_comment": "blue left",
+      "type": "sphere",
+      "radius": 30,
+      "pos": [ -105, -120, -10 ],
+      "diff": [ 0.33, 0.33, 1 ],
+      "spec": [ 0, 0, 0 ],
+      "shineness": 200.0
+    },
+    {
+      "_comment": "green right",
+      "type": "sphere", 
+      "radius": 30,
+      "pos": [ 105, -120, 30 ],
+      "diff": [ 0.1, 0.54, 0.13 ],
+      "spec": [ 0, 0, 0 ],
+      "shineness": 200.0
+    },
+    {
+      "_comment": "mirror front",
+      "type": "sphere",
+      "radius": 40,
+      "pos": [ 10, -110, 90 ],
+      "diff": [ 0, 0, 0 ],
+      "spec": [ 1, 1, 1 ],
+      "shineness": 200.0
+    },
+    {
+      "_comment": "back face",
+      "type": "quad",
+      "p0": [ -150, -150, -150 ],
+      "p1": [ 150, -150, -150 ],
+      "p2": [ -150, 150, -150 ],
+      "diff": [ 0.25, 0.25, 0.25 ],
+      "spec": [ 0.1, 0.1, 0 ],
+      "shineness": 2000.0
+    },
+    {
+      "_comment": "right face",
+      "type": "quad",
+      "p0": [ 150, -150, 150 ],
+      "p1": [ 150, -150, -150 ],
+      "p2": [ 150, 150, 150 ],
+      "diff": [ 0.8, 0.8, 0.8 ],
+      "spec": [ 0, 0, 0 ],
+      "shineness": 10.0
+    },
+    {
+      "_comment": "left face",
+      "type": "quad",
+      "p0": [ -150, -150, -150 ],
+      "p1": [ -150, -150, 150 ],
+      "p2": [ -150, 150, -150 ],
+      "diff": [ 0.7, 0.7, 0.1255 ],
+      "spec": [ 0, 0, 0 ],
+      "shineness": 10.0
+    },
+    {
+      "_comment": "bottom face",
+      "type": "quad",
+      "p0": [ -150, -150, 150 ],
+      "p1": [ 150, -150, 150 ],
+      "p2": [ -150, -150, -150 ],
+      "diff": [ 0, 0.7, 0.1 ],
+      "spec": [ 0, 0, 0 ],
+      "shineness": 10.0
+    },
+    {
+      "_comment": "top face",
+      "type": "quad",
+      "p0": [ -150, 150, 150 ],
+      "p1": [ 150, 150, 150 ],
+      "p2": [ -150, 150, -150 ],
+      "diff": [ 1.0, 0.2, 0.2 ],
+      "spec": [ 0, 0, 0 ],
+      "shineness": 100.0
+    }
+  ]
+}

@@ -1,0 +1,2 @@
+C:\Users\Sol\Documents\School\Spring 22\CS 434\raytracer\x64\Debug\raytracer.exe
+C:\Users\Sol\Documents\School\Spring 22\CS 434\raytracer\x64\Debug\raytracer.pdb

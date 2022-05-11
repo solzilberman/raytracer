@@ -1,0 +1,49 @@
+{
+  "global": {
+    "gl_flag": 1,
+    "animation_flag": 0,
+    "animation_frame_count": 100
+  },
+  "renderer": {
+    "resolution": [ 1000, 1000 ],
+    "max_depth": 15,
+    "anti_aliasing": 3,
+    "background_color": [ 0, 0, 0 ]
+  },
+  "camera": {
+    "fovy": 45,
+    "eye": [ 0, 10, 100 ],
+    "target": [ 0, 0, 0 ],
+    "up": [ 0, 1, 0 ]
+  },
+  "skybox": {
+    "right": "configs/skybox/right.jpg",
+    "left": "configs/skybox/left.jpg",
+    "top": "configs/skybox/top.jpg",
+    "bottom": "configs/skybox/bottom.jpg",
+    "front": "configs/skybox/front.jpg",
+    "back": "configs/skybox/back.jpg"
+  },
+  "lights": [
+    {
+      "pos": [ 0, 200, -200 ],
+      "diff": [ 1.0, 1.0, 1.0 ],
+      "spec": [ 1.0, 1.0, 1.0 ]
+    },
+    {
+      "pos": [ 0, 50, 0 ],
+      "diff": [ 1.0, 1.0, 1.0 ],
+      "spec": [ 1.0, 1.0, 1.0 ]
+    }
+  ],
+  "objects": [
+    {
+      "type": "sphere",
+      "radius": 5,
+      "pos": [ 0, 10, 0 ],
+      "diff": [ 0.7, 0.7, 0.7 ],
+      "spec": [ 1, 1, 1 ],
+      "shineness": 1000.0
+    }
+  ]
+}
