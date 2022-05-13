@@ -1,4 +1,9 @@
-﻿# Raytracer Lab 02
+﻿# Raytracer
+
+**Sample Renders**
+![](/configs/sample_render1.png)
+![](/configs/sample_render2.png)
+![](/configs/sample_render3.png)
 
 **Build (Target: Win10 x64)**
  - Open .sln
